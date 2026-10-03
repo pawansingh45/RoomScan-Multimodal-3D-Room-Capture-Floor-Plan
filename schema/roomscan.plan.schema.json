@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "roomscan.plan/1.0",
+  "title": "roomscan plan output",
+  "description": "Output contract. NOTE: the Round-1 published schema was not available when this was written; roomscan/adapter.py maps this schema onto it. Every measurement is an Interval object.",
+  "definitions": {
+    "interval": {
+      "type": "object",
+      "required": ["value", "lo", "hi", "unit", "level"],
+      "properties": {
+        "value": {"type": ["number", "null"]}, "lo": {"type": ["number", "null"]}, "hi": {"type": ["number", "null"]},
+        "unit": {"type": "string"}, "level": {"type": "number", "minimum": 0, "maximum": 1},
+        "basis": {"type": "string"}, "calibrated": {"type": "boolean"}, "status": {"type": "string"}
+      }
+    },
+    "point": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}
+  },
+  "type": "object",
+  "required": ["schema", "capture", "rooms", "stitched_plan", "diagnostics"],
+  "properties": {
+    "schema": {"type": "string", "enum": ["roomscan.plan/1.0"]},
+    "capture": {"type": "object", "required": ["tier", "status"],
+      "properties": {"tier": {"type": "string", "enum": ["lidar", "video_pose", "video_mono", "photo"]},
+                     "status": {"type": "string", "enum": ["ok", "degraded", "insufficient", "failed"]}}},
+    "rooms": {"type": "array", "items": {
+      "type": "object",
+      "required": ["id", "name", "kind", "polygon", "walls", "openings", "floor_area", "ceiling_height", "damage", "concealed_damage_flags", "scope_items"],
+      "properties": {
+        "id": {"type": "string"}, "name": {"type": "string"}, "kind": {"type": "string", "enum": ["room", "connector"]},
+        "polygon": {"type": "array", "items": {"$ref": "#/definitions/point"}, "minItems": 3},
+        "floor_area": {"$ref": "#/definitions/interval"},
+        "ceiling_height": {"$ref": "#/definitions/interval"},
+        "walls": {"type": "array", "items": {"type": "object", "required": ["id", "start", "end", "length", "observed", "openings"],
+            "properties": {"id": {"type": "string"}, "start": {"$ref": "#/definitions/point"}, "end": {"$ref": "#/definitions/point"},
+                           "length": {"$ref": "#/definitions/interval"}, "observed": {"type": "boolean"}, "openings": {"type": "array"}}}},
+        "openings": {"type": "array", "items": {"type": "object", "required": ["id", "wall_id", "kind", "width"],
+            "properties": {"id": {"type": "string"}, "wall_id": {"type": "string"}, "kind": {"type": "string", "enum": ["door", "window", "opening"]},
+                           "width": {"$ref": "#/definitions/interval"}}}},
+        "damage": {"type": "array", "items": {"type": "object", "required": ["id", "surface_id", "class", "extent", "confidence"]}},
+        "concealed_damage_flags": {"type": "array", "items": {"type": "object", "required": ["id", "rule", "surface_id", "confidence"]}},
+        "scope_items": {"type": "array", "items": {"type": "object", "required": ["id", "surface_id", "action", "quantity", "unit"]}}
+      }}},
+    "stitched_plan": {"type": "object", "required": ["n_rooms", "connections", "footprint_area", "overlap_free"],
+      "properties": {"footprint_area": {"$ref": "#/definitions/interval"}, "overlap_free": {"type": "boolean"}, "connections": {"type": "array"}}},
+    "diagnostics": {"type": "object"}
+  }
+}
