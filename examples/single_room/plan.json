@@ -1,0 +1,2405 @@
+{
+  "schema": "roomscan.plan/1.0",
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Room 1",
+      "polygon": [
+        [
+          -5.5044755894452955,
+          2.5705544268376457
+        ],
+        [
+          -4.114088906417953,
+          2.5705544268376457
+        ],
+        [
+          -4.114088906417953,
+          1.8966936771551515
+        ],
+        [
+          -2.3128060891066915,
+          1.8966936771551515
+        ],
+        [
+          -2.3128060891066915,
+          2.1788525984816154
+        ],
+        [
+          -1.852806089106692,
+          2.1788525984816154
+        ],
+        [
+          -1.852806089106692,
+          2.358852598481616
+        ],
+        [
+          -1.0485430774297386,
+          2.358852598481616
+        ],
+        [
+          -1.0485430774297386,
+          1.5031907454346134
+        ],
+        [
+          -0.5328060891066917,
+          1.5031907454346134
+        ],
+        [
+          -0.5328060891066917,
+          1.7188525984816156
+        ],
+        [
+          -0.19425887166999556,
+          1.7188525984816156
+        ],
+        [
+          -0.19425887166999556,
+          1.8966936771551515
+        ],
+        [
+          -0.027484065968780225,
+          1.8966936771551515
+        ],
+        [
+          -0.027484065968780225,
+          2.938852598481616
+        ],
+        [
+          -0.19425887166999556,
+          2.938852598481616
+        ],
+        [
+          -0.19425887166999556,
+          3.5738555103430776
+        ],
+        [
+          -0.9637684680955795,
+          3.5738555103430776
+        ],
+        [
+          -0.9637684680955795,
+          3.645863624834128
+        ],
+        [
+          -4.092806089106691,
+          3.645863624834128
+        ],
+        [
+          -4.092806089106691,
+          3.938852598481616
+        ],
+        [
+          -5.5044755894452955,
+          3.938852598481616
+        ]
+      ],
+      "walls": [
+        {
+          "id": "R1.w1",
+          "start": [
+            -5.5044755894452955,
+            2.5705544268376457
+          ],
+          "end": [
+            -4.114088906417953,
+            2.5705544268376457
+          ],
+          "length": {
+            "value": 1.3903866830273426,
+            "lo": 0.5721133672956478,
+            "hi": 2.208659998759037,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.49747485267018,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 322,
+          "support": 0.179,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w2",
+          "start": [
+            -4.114088906417953,
+            2.5705544268376457
+          ],
+          "end": [
+            -4.114088906417953,
+            1.8966936771551515
+          ],
+          "length": {
+            "value": 0.6738607496824942,
+            "lo": -0.18069433200595464,
+            "hi": 1.528415831370943,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5195326001574124,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 2323,
+          "support": 1.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w3",
+          "start": [
+            -4.114088906417953,
+            1.8966936771551515
+          ],
+          "end": [
+            -2.3128060891066915,
+            1.8966936771551515
+          ],
+          "length": {
+            "value": 1.8012828173112614,
+            "lo": 0.9475167357200756,
+            "hi": 2.6550488989024474,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5190529221579023,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.028,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w4",
+          "start": [
+            -2.3128060891066915,
+            1.8966936771551515
+          ],
+          "end": [
+            -2.3128060891066915,
+            2.1788525984816154
+          ],
+          "length": {
+            "value": 0.2821589213264639,
+            "lo": -0.6063889005834613,
+            "hi": 1.1707067432363891,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.540198718810461,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w5",
+          "start": [
+            -2.3128060891066915,
+            2.1788525984816154
+          ],
+          "end": [
+            -1.852806089106692,
+            2.1788525984816154
+          ],
+          "length": {
+            "value": 0.4599999999999995,
+            "lo": -0.4285542520600787,
+            "hi": 1.3485542520600777,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5402026280641767,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w6",
+          "start": [
+            -1.852806089106692,
+            2.1788525984816154
+          ],
+          "end": [
+            -1.852806089106692,
+            2.358852598481616
+          ],
+          "length": {
+            "value": 0.1800000000000006,
+            "lo": -0.7085455217295628,
+            "hi": 1.0685455217295639,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5401973204000954,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w7",
+          "start": [
+            -1.852806089106692,
+            2.358852598481616
+          ],
+          "end": [
+            -1.0485430774297386,
+            2.358852598481616
+          ],
+          "length": {
+            "value": 0.8042630116769534,
+            "lo": -0.04937134388348152,
+            "hi": 1.6578973672373882,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5189728384175667,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.086,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w8",
+          "start": [
+            -1.0485430774297386,
+            2.358852598481616
+          ],
+          "end": [
+            -1.0485430774297386,
+            1.5031907454346134
+          ],
+          "length": {
+            "value": 0.8556618530470026,
+            "lo": 0.0018303188942249138,
+            "hi": 1.7094933871997804,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5190927144898883,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 2048,
+          "support": 0.64,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w9",
+          "start": [
+            -1.0485430774297386,
+            1.5031907454346134
+          ],
+          "end": [
+            -0.5328060891066917,
+            1.5031907454346134
+          ],
+          "length": {
+            "value": 0.5157369883230469,
+            "lo": -0.3385845336880403,
+            "hi": 1.3700585103341343,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5193906059559014,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 92,
+          "support": 0.077,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w10",
+          "start": [
+            -0.5328060891066917,
+            1.5031907454346134
+          ],
+          "end": [
+            -0.5328060891066917,
+            1.7188525984816156
+          ],
+          "length": {
+            "value": 0.21566185304700225,
+            "lo": -0.6379420586582533,
+            "hi": 1.0692657647522577,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5189543298678206,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w11",
+          "start": [
+            -0.5328060891066917,
+            1.7188525984816156
+          ],
+          "end": [
+            -0.19425887166999556,
+            1.7188525984816156
+          ],
+          "length": {
+            "value": 0.33854721743669614,
+            "lo": -0.5500023096455923,
+            "hi": 1.2270967445189847,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5401997554816488,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w12",
+          "start": [
+            -0.19425887166999556,
+            1.7188525984816156
+          ],
+          "end": [
+            -0.19425887166999556,
+            1.8966936771551515
+          ],
+          "length": {
+            "value": 0.17784107867353582,
+            "lo": -0.710704405418435,
+            "hi": 1.0663865627655067,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5401972975180639,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w13",
+          "start": [
+            -0.19425887166999556,
+            1.8966936771551515
+          ],
+          "end": [
+            -0.027484065968780225,
+            1.8966936771551515
+          ],
+          "length": {
+            "value": 0.16677480570121533,
+            "lo": -0.6868281578657978,
+            "hi": 1.0203777692682285,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5189537534406986,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w14",
+          "start": [
+            -0.027484065968780225,
+            1.8966936771551515
+          ],
+          "end": [
+            -0.027484065968780225,
+            2.938852598481616
+          ],
+          "length": {
+            "value": 1.0421589213264646,
+            "lo": 0.15323384737946444,
+            "hi": 1.9310839952734646,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5404280717637533,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 5686,
+          "support": 0.971,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w15",
+          "start": [
+            -0.027484065968780225,
+            2.938852598481616
+          ],
+          "end": [
+            -0.19425887166999556,
+            2.938852598481616
+          ],
+          "length": {
+            "value": 0.16677480570121533,
+            "lo": -0.6868281578657978,
+            "hi": 1.0203777692682285,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5189537534406986,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 1,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w16",
+          "start": [
+            -0.19425887166999556,
+            2.938852598481616
+          ],
+          "end": [
+            -0.19425887166999556,
+            3.5738555103430776
+          ],
+          "length": {
+            "value": 0.6350029118614615,
+            "lo": -0.2186190898755651,
+            "hi": 1.4886249135984881,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5189653278262254,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.156,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w17",
+          "start": [
+            -0.19425887166999556,
+            3.5738555103430776
+          ],
+          "end": [
+            -0.9637684680955795,
+            3.5738555103430776
+          ],
+          "length": {
+            "value": 0.7695095964255839,
+            "lo": -0.0845061094916848,
+            "hi": 1.6235253023428526,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5192046829723558,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 6829,
+          "support": 1.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w18",
+          "start": [
+            -0.9637684680955795,
+            3.5738555103430776
+          ],
+          "end": [
+            -0.9637684680955795,
+            3.645863624834128
+          ],
+          "length": {
+            "value": 0.07200811449105027,
+            "lo": -0.7465119993683937,
+            "hi": 0.8905282283504943,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.49762489527804815,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 479,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w19",
+          "start": [
+            -0.9637684680955795,
+            3.645863624834128
+          ],
+          "end": [
+            -4.092806089106691,
+            3.645863624834128
+          ],
+          "length": {
+            "value": 3.1290376210111117,
+            "lo": 2.274622595129907,
+            "hi": 3.9834526468923164,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5194474522725493,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 13033,
+          "support": 0.789,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w20",
+          "start": [
+            -4.092806089106691,
+            3.645863624834128
+          ],
+          "end": [
+            -4.092806089106691,
+            3.938852598481616
+          ],
+          "length": {
+            "value": 0.2929889736474882,
+            "lo": -0.5606169327191778,
+            "hi": 1.1465948800141543,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5189555425358525,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w21",
+          "start": [
+            -4.092806089106691,
+            3.938852598481616
+          ],
+          "end": [
+            -5.5044755894452955,
+            3.938852598481616
+          ],
+          "length": {
+            "value": 1.4116695003386042,
+            "lo": 0.5579668918629949,
+            "hi": 2.2653721088142134,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5190143332436449,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.007,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R1.w22",
+          "start": [
+            -5.5044755894452955,
+            3.938852598481616
+          ],
+          "end": [
+            -5.5044755894452955,
+            2.5705544268376457
+          ],
+          "length": {
+            "value": 1.3682981716439704,
+            "lo": 0.5136473443401268,
+            "hi": 2.222948998947814,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.5195908093584173,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 5919,
+          "support": 1.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        }
+      ],
+      "openings": [],
+      "completeness": 0.586,
+      "floor_area": {
+        "value": 8.645204189831126,
+        "lo": 7.981680476694797,
+        "hi": 9.308727902967457,
+        "unit": "m2",
+        "level": 0.9,
+        "sigma": 0.4033937745366963,
+        "basis": "edge-offset propagation + scale",
+        "calibrated": false
+      },
+      "perimeter": 16.749624595699963,
+      "bbox_m": [
+        5.476991523476515,
+        2.4356618530470024
+      ],
+      "centroid": [
+        -1.894372927920373,
+        2.5655558776516227
+      ],
+      "floor_height_offset_m": -0.0016,
+      "vertical": {
+        "floor_status": "observed",
+        "ceiling_status": "not_observed",
+        "ceiling_cover": 0.0
+      },
+      "surfaces": [
+        {
+          "id": "R1.floor",
+          "kind": "floor",
+          "area_m2": 8.645204189831126
+        },
+        {
+          "id": "R1.w1",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.3903866830273426,
+          "observed": true
+        },
+        {
+          "id": "R1.w2",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.6738607496824942,
+          "observed": true
+        },
+        {
+          "id": "R1.w3",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.8012828173112614,
+          "observed": false
+        },
+        {
+          "id": "R1.w5",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.4599999999999995,
+          "observed": false
+        },
+        {
+          "id": "R1.w7",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.8042630116769534,
+          "observed": false
+        },
+        {
+          "id": "R1.w8",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.8556618530470026,
+          "observed": true
+        },
+        {
+          "id": "R1.w9",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.5157369883230469,
+          "observed": true
+        },
+        {
+          "id": "R1.w11",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.33854721743669614,
+          "observed": false
+        },
+        {
+          "id": "R1.w14",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.0421589213264646,
+          "observed": true
+        },
+        {
+          "id": "R1.w16",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.6350029118614615,
+          "observed": false
+        },
+        {
+          "id": "R1.w17",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.7695095964255839,
+          "observed": true
+        },
+        {
+          "id": "R1.w19",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 3.1290376210111117,
+          "observed": true
+        },
+        {
+          "id": "R1.w21",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.4116695003386042,
+          "observed": false
+        },
+        {
+          "id": "R1.w22",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.3682981716439704,
+          "observed": true
+        }
+      ],
+      "damage": [],
+      "concealed_damage_flags": [],
+      "scope_items": [],
+      "ceiling_height": {
+        "value": null,
+        "lo": null,
+        "hi": null,
+        "unit": "m",
+        "level": 0.9,
+        "status": "not_observed",
+        "lower_bound": 0.862,
+        "basis": "ceiling plane not scanned; only a lower bound from the highest wall return",
+        "calibrated": false
+      },
+      "kind": "room",
+      "n_connections": 1
+    },
+    {
+      "id": "R2",
+      "name": "Room 2",
+      "polygon": [
+        [
+          -1.0626017431658754,
+          -1.137628994025917
+        ],
+        [
+          2.37943368163601,
+          -1.137628994025917
+        ],
+        [
+          2.37943368163601,
+          1.9060382569954737
+        ],
+        [
+          -0.19425887166999556,
+          1.9060382569954737
+        ],
+        [
+          -0.19425887166999556,
+          1.6988525984816156
+        ],
+        [
+          -0.5928060891066913,
+          1.6988525984816156
+        ],
+        [
+          -0.5928060891066913,
+          1.518852598481616
+        ],
+        [
+          -0.7728060891066919,
+          1.518852598481616
+        ],
+        [
+          -0.7728060891066919,
+          1.1788525984816156
+        ],
+        [
+          -0.5528060891066913,
+          1.1788525984816156
+        ],
+        [
+          -0.5528060891066913,
+          0.9988525984816159
+        ],
+        [
+          -0.36698647616598923,
+          0.9988525984816159
+        ],
+        [
+          -0.36698647616598923,
+          0.7988525984816157
+        ],
+        [
+          -0.19425887166999556,
+          0.7988525984816157
+        ],
+        [
+          -0.19425887166999556,
+          -0.06114740151838438
+        ],
+        [
+          -0.36698647616598923,
+          -0.06114740151838438
+        ],
+        [
+          -0.36698647616598923,
+          -0.2667337798215596
+        ],
+        [
+          -0.6128060891066918,
+          -0.2667337798215596
+        ],
+        [
+          -0.6128060891066918,
+          -0.8811474015183843
+        ],
+        [
+          -1.0626017431658754,
+          -0.8811474015183843
+        ]
+      ],
+      "walls": [
+        {
+          "id": "R2.w1",
+          "start": [
+            -1.0626017431658754,
+            -1.137628994025917
+          ],
+          "end": [
+            2.37943368163601,
+            -1.137628994025917
+          ],
+          "length": {
+            "value": 3.4420354248018854,
+            "lo": 2.801857126555579,
+            "hi": 4.082213723048192,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.3892007700604922,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 9415,
+          "support": 0.823,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w2",
+          "start": [
+            2.37943368163601,
+            -1.137628994025917
+          ],
+          "end": [
+            2.37943368163601,
+            1.9060382569954737
+          ],
+          "length": {
+            "value": 3.0436672510213905,
+            "lo": 2.403677034209843,
+            "hi": 3.683657467832938,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.38908642466727467,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 19085,
+          "support": 0.984,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w3",
+          "start": [
+            2.37943368163601,
+            1.9060382569954737
+          ],
+          "end": [
+            -0.19425887166999556,
+            1.9060382569954737
+          ],
+          "length": {
+            "value": 2.5736925533060058,
+            "lo": 1.8882345828180684,
+            "hi": 3.2591505237939433,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.41672885614651733,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 15630,
+          "support": 0.938,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w4",
+          "start": [
+            -0.19425887166999556,
+            1.9060382569954737
+          ],
+          "end": [
+            -0.19425887166999556,
+            1.6988525984816156
+          ],
+          "length": {
+            "value": 0.20718565851385806,
+            "lo": -0.4770662377547844,
+            "hi": 0.8914375547825005,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.41599561508510435,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w5",
+          "start": [
+            -0.19425887166999556,
+            1.6988525984816156
+          ],
+          "end": [
+            -0.5928060891066913,
+            1.6988525984816156
+          ],
+          "length": {
+            "value": 0.39854721743669574,
+            "lo": -0.328835364699375,
+            "hi": 1.1259297995727664,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4422172102232478,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w6",
+          "start": [
+            -0.5928060891066913,
+            1.6988525984816156
+          ],
+          "end": [
+            -0.5928060891066913,
+            1.518852598481616
+          ],
+          "length": {
+            "value": 0.17999999999999972,
+            "lo": -0.5473750572845324,
+            "hi": 0.9073750572845318,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44221263543834577,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w7",
+          "start": [
+            -0.5928060891066913,
+            1.518852598481616
+          ],
+          "end": [
+            -0.7728060891066919,
+            1.518852598481616
+          ],
+          "length": {
+            "value": 0.1800000000000006,
+            "lo": -0.5473750572845315,
+            "hi": 0.9073750572845327,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44221263543834577,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w8",
+          "start": [
+            -0.7728060891066919,
+            1.518852598481616
+          ],
+          "end": [
+            -0.7728060891066919,
+            1.1788525984816156
+          ],
+          "length": {
+            "value": 0.3400000000000003,
+            "lo": -0.38738000879771795,
+            "hi": 1.0673800087977185,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4422156457446155,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w9",
+          "start": [
+            -0.7728060891066919,
+            1.1788525984816156
+          ],
+          "end": [
+            -0.5528060891066913,
+            1.1788525984816156
+          ],
+          "length": {
+            "value": 0.22000000000000064,
+            "lo": -0.5073760095012235,
+            "hi": 0.9473760095012248,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4422132143449891,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w10",
+          "start": [
+            -0.5528060891066913,
+            1.1788525984816156
+          ],
+          "end": [
+            -0.5528060891066913,
+            0.9988525984816159
+          ],
+          "length": {
+            "value": 0.17999999999999972,
+            "lo": -0.5473750572845324,
+            "hi": 0.9073750572845318,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44221263543834577,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w11",
+          "start": [
+            -0.5528060891066913,
+            0.9988525984816159
+          ],
+          "end": [
+            -0.36698647616598923,
+            0.9988525984816159
+          ],
+          "length": {
+            "value": 0.18581961294070204,
+            "lo": -0.5415555710439836,
+            "hi": 0.9131947969253876,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4422127124665696,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w12",
+          "start": [
+            -0.36698647616598923,
+            0.9988525984816159
+          ],
+          "end": [
+            -0.36698647616598923,
+            0.7988525984816157
+          ],
+          "length": {
+            "value": 0.20000000000000018,
+            "lo": -0.527375509587616,
+            "hi": 0.9273755095876164,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44221291041909583,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w13",
+          "start": [
+            -0.36698647616598923,
+            0.7988525984816157
+          ],
+          "end": [
+            -0.19425887166999556,
+            0.7988525984816157
+          ],
+          "length": {
+            "value": 0.17272760449599367,
+            "lo": -0.5546473001257903,
+            "hi": 0.9001025091177777,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44221254262598503,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w14",
+          "start": [
+            -0.19425887166999556,
+            0.7988525984816157
+          ],
+          "end": [
+            -0.19425887166999556,
+            -0.06114740151838438
+          ],
+          "length": {
+            "value": 0.8600000000000001,
+            "lo": 0.13258285592772845,
+            "hi": 1.5874171440722717,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4422382223884852,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w15",
+          "start": [
+            -0.19425887166999556,
+            -0.06114740151838438
+          ],
+          "end": [
+            -0.36698647616598923,
+            -0.06114740151838438
+          ],
+          "length": {
+            "value": 0.17272760449599367,
+            "lo": -0.5546473001257903,
+            "hi": 0.9001025091177777,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44221254262598503,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w16",
+          "start": [
+            -0.36698647616598923,
+            -0.06114740151838438
+          ],
+          "end": [
+            -0.36698647616598923,
+            -0.2667337798215596
+          ],
+          "length": {
+            "value": 0.20558637830317522,
+            "lo": -0.4786654762023092,
+            "hi": 0.8898382328086596,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4159955896949071,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w17",
+          "start": [
+            -0.36698647616598923,
+            -0.2667337798215596
+          ],
+          "end": [
+            -0.6128060891066918,
+            -0.2667337798215596
+          ],
+          "length": {
+            "value": 0.24581961294070254,
+            "lo": -0.4816427474291055,
+            "hi": 0.9732819733105106,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.44226571194548625,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 349,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w18",
+          "start": [
+            -0.6128060891066918,
+            -0.2667337798215596
+          ],
+          "end": [
+            -0.6128060891066918,
+            -0.8811474015183843
+          ],
+          "length": {
+            "value": 0.6144136216968248,
+            "lo": -0.06985944108940068,
+            "hi": 1.2986866844830502,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.4160084834140767,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.032,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w19",
+          "start": [
+            -0.6128060891066918,
+            -0.8811474015183843
+          ],
+          "end": [
+            -1.0626017431658754,
+            -0.8811474015183843
+          ],
+          "length": {
+            "value": 0.44979565405918365,
+            "lo": -0.23446632584157756,
+            "hi": 1.1340576339599449,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.41600174549814145,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R2.w20",
+          "start": [
+            -1.0626017431658754,
+            -0.8811474015183843
+          ],
+          "end": [
+            -1.0626017431658754,
+            -1.137628994025917
+          ],
+          "length": {
+            "value": 0.25648159250753266,
+            "lo": -0.4279454894287663,
+            "hi": 0.9409086744438316,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.41610212040860917,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 554,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        }
+      ],
+      "openings": [],
+      "completeness": 0.677,
+      "floor_area": {
+        "value": 8.716377828681551,
+        "lo": 8.342294895497055,
+        "hi": 9.090460761866048,
+        "unit": "m2",
+        "level": 0.9,
+        "sigma": 0.22742627493110823,
+        "basis": "edge-offset propagation + scale",
+        "calibrated": false
+      },
+      "perimeter": 14.128499786519942,
+      "bbox_m": [
+        3.4420354248018854,
+        3.0436672510213905
+      ],
+      "centroid": [
+        -0.2336883113628601,
+        0.5753643672519307
+      ],
+      "floor_height_offset_m": 0.0043,
+      "vertical": {
+        "floor_status": "observed",
+        "ceiling_status": "not_observed",
+        "ceiling_cover": 0.0
+      },
+      "surfaces": [
+        {
+          "id": "R2.floor",
+          "kind": "floor",
+          "area_m2": 8.716377828681551
+        },
+        {
+          "id": "R2.w1",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 3.4420354248018854,
+          "observed": true
+        },
+        {
+          "id": "R2.w2",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 3.0436672510213905,
+          "observed": true
+        },
+        {
+          "id": "R2.w3",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 2.5736925533060058,
+          "observed": true
+        },
+        {
+          "id": "R2.w5",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.39854721743669574,
+          "observed": false
+        },
+        {
+          "id": "R2.w8",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.3400000000000003,
+          "observed": false
+        },
+        {
+          "id": "R2.w14",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.8600000000000001,
+          "observed": false
+        },
+        {
+          "id": "R2.w18",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.6144136216968248,
+          "observed": false
+        },
+        {
+          "id": "R2.w19",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.44979565405918365,
+          "observed": false
+        }
+      ],
+      "damage": [],
+      "concealed_damage_flags": [],
+      "scope_items": [],
+      "ceiling_height": {
+        "value": null,
+        "lo": null,
+        "hi": null,
+        "unit": "m",
+        "level": 0.9,
+        "status": "not_observed",
+        "lower_bound": 1.341,
+        "basis": "ceiling plane not scanned; only a lower bound from the highest wall return",
+        "calibrated": false
+      },
+      "kind": "room",
+      "n_connections": 0
+    },
+    {
+      "id": "R3",
+      "name": "Room 3",
+      "polygon": [
+        [
+          -0.19417879847938213,
+          2.938852598481616
+        ],
+        [
+          -0.027484065968780225,
+          2.938852598481616
+        ],
+        [
+          -0.027484065968780225,
+          1.8887765480104197
+        ],
+        [
+          2.1671939108933094,
+          1.8887765480104197
+        ],
+        [
+          2.1671939108933094,
+          2.4588525984816156
+        ],
+        [
+          2.352944982723386,
+          2.4588525984816156
+        ],
+        [
+          2.352944982723386,
+          4.883634572228799
+        ],
+        [
+          1.0479631289481461,
+          4.883634572228799
+        ],
+        [
+          1.0479631289481461,
+          4.744615458040563
+        ],
+        [
+          0.7671939108933081,
+          4.744615458040563
+        ],
+        [
+          0.7671939108933081,
+          4.906647165230909
+        ],
+        [
+          -0.19417879847938213,
+          4.906647165230909
+        ]
+      ],
+      "walls": [
+        {
+          "id": "R3.w1",
+          "start": [
+            -0.19417879847938213,
+            2.938852598481616
+          ],
+          "end": [
+            -0.027484065968780225,
+            2.938852598481616
+          ],
+          "length": {
+            "value": 0.1666947325106019,
+            "lo": -0.021681346357391273,
+            "hi": 0.3550708113785951,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.11452452411654669,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 1,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w2",
+          "start": [
+            -0.027484065968780225,
+            2.938852598481616
+          ],
+          "end": [
+            -0.027484065968780225,
+            1.8887765480104197
+          ],
+          "length": {
+            "value": 1.0500760504711963,
+            "lo": 0.7385688255253432,
+            "hi": 1.3615832754170496,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.1893829455957077,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 5686,
+          "support": 0.972,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w3",
+          "start": [
+            -0.027484065968780225,
+            1.8887765480104197
+          ],
+          "end": [
+            2.1671939108933094,
+            1.8887765480104197
+          ],
+          "length": {
+            "value": 2.1946779768620894,
+            "lo": 1.8820010270730565,
+            "hi": 2.5073549266511224,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.19009408780557574,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 13320,
+          "support": 1.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w4",
+          "start": [
+            2.1671939108933094,
+            1.8887765480104197
+          ],
+          "end": [
+            2.1671939108933094,
+            2.4588525984816156
+          ],
+          "length": {
+            "value": 0.5700760504711959,
+            "lo": 0.2596150938759757,
+            "hi": 0.8805370070664161,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.18874685960392734,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.086,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w5",
+          "start": [
+            2.1671939108933094,
+            2.4588525984816156
+          ],
+          "end": [
+            2.352944982723386,
+            2.4588525984816156
+          ],
+          "length": {
+            "value": 0.18575107183007677,
+            "lo": -0.12466937899247921,
+            "hi": 0.49617152265263276,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.18872223384270426,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 0,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            -1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w6",
+          "start": [
+            2.352944982723386,
+            2.4588525984816156
+          ],
+          "end": [
+            2.352944982723386,
+            4.883634572228799
+          ],
+          "length": {
+            "value": 2.4247819737471836,
+            "lo": 2.1108529906645606,
+            "hi": 2.7387109568298067,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.19085527000019487,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 22334,
+          "support": 0.815,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w7",
+          "start": [
+            2.352944982723386,
+            4.883634572228799
+          ],
+          "end": [
+            1.0479631289481461,
+            4.883634572228799
+          ],
+          "length": {
+            "value": 1.30498185377524,
+            "lo": 1.112669563766207,
+            "hi": 1.497294143784273,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.1169175705715891,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 16586,
+          "support": 1.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w8",
+          "start": [
+            1.0479631289481461,
+            4.883634572228799
+          ],
+          "end": [
+            1.0479631289481461,
+            4.744615458040563
+          ],
+          "length": {
+            "value": 0.13901911418823598,
+            "lo": -0.054854485020070426,
+            "hi": 0.33289271339654236,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.11786677916601404,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 461,
+          "support": 0.0,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w9",
+          "start": [
+            1.0479631289481461,
+            4.744615458040563
+          ],
+          "end": [
+            0.7671939108933081,
+            4.744615458040563
+          ],
+          "length": {
+            "value": 0.280769218054838,
+            "lo": -0.0328853984528194,
+            "hi": 0.5944238345624955,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.19068846696649627,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "partial",
+          "n_points": 1031,
+          "support": 0.0,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w10",
+          "start": [
+            0.7671939108933081,
+            4.744615458040563
+          ],
+          "end": [
+            0.7671939108933081,
+            4.906647165230909
+          ],
+          "length": {
+            "value": 0.1620317071903461,
+            "lo": -0.026344019427194748,
+            "hi": 0.35040743380788697,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.11452430996347766,
+            "basis": "plane-fit + scale + drift + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": false,
+          "kind": "inferred",
+          "n_points": 22,
+          "support": 0.0,
+          "outward": [
+            1.0,
+            0.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w11",
+          "start": [
+            0.7671939108933081,
+            4.906647165230909
+          ],
+          "end": [
+            -0.19417879847938213,
+            4.906647165230909
+          ],
+          "length": {
+            "value": 0.9613727093726903,
+            "lo": 0.6499774506058231,
+            "hi": 1.2727679681395574,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.1893148749922501,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 2663,
+          "support": 0.938,
+          "outward": [
+            0.0,
+            1.0
+          ],
+          "openings": []
+        },
+        {
+          "id": "R3.w12",
+          "start": [
+            -0.19417879847938213,
+            4.906647165230909
+          ],
+          "end": [
+            -0.19417879847938213,
+            2.938852598481616
+          ],
+          "length": {
+            "value": 1.9677945667492933,
+            "lo": 1.6557657537683608,
+            "hi": 2.279823379730226,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.18970004860507758,
+            "basis": "plane-fit + scale + drift + unobserved-wall inference + partial-room penalty",
+            "calibrated": false
+          },
+          "observed": true,
+          "kind": "wall",
+          "n_points": 9067,
+          "support": 0.655,
+          "outward": [
+            -1.0,
+            0.0
+          ],
+          "openings": [
+            "R3.w12.o1"
+          ]
+        }
+      ],
+      "openings": [
+        {
+          "id": "R3.w12.o1",
+          "wall_id": "R3.w12",
+          "kind": "door",
+          "width": {
+            "value": 0.5620833333333333,
+            "lo": 0.5289790449205911,
+            "hi": 0.5951876217460754,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.020125978306104225,
+            "basis": "jamb-edge localisation",
+            "calibrated": false
+          },
+          "height": null,
+          "sill_m": 0.05,
+          "offset_from_wall_start": {
+            "value": 0.0,
+            "lo": -0.04934560880854416,
+            "hi": 0.04934560880854416,
+            "unit": "m",
+            "level": 0.9,
+            "sigma": 0.03,
+            "basis": "",
+            "calibrated": false
+          },
+          "start": [
+            -0.19417879847938213,
+            2.938852598481616
+          ],
+          "end": [
+            -0.19417879847938213,
+            3.5009359318149493
+          ],
+          "leads_to": "R1",
+          "evidence": {
+            "see_through": 1.0,
+            "confirmed": true
+          }
+        }
+      ],
+      "completeness": 0.905,
+      "floor_area": {
+        "value": 7.330431101962628,
+        "lo": 7.131797355101835,
+        "hi": 7.52906484882342,
+        "unit": "m2",
+        "level": 0.9,
+        "sigma": 0.12076074345225181,
+        "basis": "edge-offset propagation + scale",
+        "calibrated": false
+      },
+      "perimeter": 11.408027025222989,
+      "bbox_m": [
+        2.5471237812027683,
+        3.0178706172204897
+      ],
+      "centroid": [
+        1.0189388448349979,
+        3.636896490078987
+      ],
+      "floor_height_offset_m": 0.0001,
+      "vertical": {
+        "floor_status": "observed",
+        "ceiling_status": "not_observed",
+        "ceiling_cover": 0.0
+      },
+      "surfaces": [
+        {
+          "id": "R3.floor",
+          "kind": "floor",
+          "area_m2": 7.330431101962628
+        },
+        {
+          "id": "R3.w2",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.0500760504711963,
+          "observed": true
+        },
+        {
+          "id": "R3.w3",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 2.1946779768620894,
+          "observed": true
+        },
+        {
+          "id": "R3.w4",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.5700760504711959,
+          "observed": false
+        },
+        {
+          "id": "R3.w6",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 2.4247819737471836,
+          "observed": true
+        },
+        {
+          "id": "R3.w7",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.30498185377524,
+          "observed": true
+        },
+        {
+          "id": "R3.w11",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 0.9613727093726903,
+          "observed": true
+        },
+        {
+          "id": "R3.w12",
+          "kind": "wall",
+          "area_m2": null,
+          "length_m": 1.9677945667492933,
+          "observed": true
+        }
+      ],
+      "damage": [],
+      "concealed_damage_flags": [],
+      "scope_items": [],
+      "ceiling_height": {
+        "value": null,
+        "lo": null,
+        "hi": null,
+        "unit": "m",
+        "level": 0.9,
+        "status": "not_observed",
+        "lower_bound": 1.053,
+        "basis": "ceiling plane not scanned; only a lower bound from the highest wall return",
+        "calibrated": false
+      },
+      "kind": "room",
+      "n_connections": 1
+    }
+  ],
+  "stitched_plan": {
+    "frame": "plan (Manhattan-aligned; x right, y up)",
+    "footprint_area": {
+      "value": 24.9484,
+      "lo": 24.116515942013834,
+      "hi": 25.780284057986165,
+      "unit": "m2",
+      "level": 0.9,
+      "sigma": 0.5057495964111752,
+      "basis": "edge-offset propagation + scale",
+      "calibrated": false
+    },
+    "n_rooms": 3,
+    "connections": [
+      {
+        "rooms": [
+          "R1",
+          "R3"
+        ],
+        "openings": [
+          "R3.w12.o1"
+        ],
+        "width_m": 0.5620833333333333,
+        "confidence": "single_side"
+      }
+    ],
+    "overlaps": [],
+    "overlap_free": true,
+    "sliver_overlaps_thinner_than_wall": [
+      {
+        "rooms": [
+          "R1",
+          "R2"
+        ],
+        "area_m2": 0.032
+      },
+      {
+        "rooms": [
+          "R1",
+          "R3"
+        ],
+        "area_m2": 0.037
+      },
+      {
+        "rooms": [
+          "R2",
+          "R3"
+        ],
+        "area_m2": 0.089
+      }
+    ],
+    "bbox_m": [
+      7.883909271081306,
+      6.044276159256826
+    ],
+    "adjacency": [
+      [
+        "R1",
+        "R3"
+      ]
+    ]
+  },
+  "plan_frame": {
+    "phi_deg": 22.800508229892777,
+    "up": "+Y (gravity)",
+    "note": "plan x/y = ARKit world (x,z) rotated by phi so walls are axis-aligned"
+  },
+  "capture": {
+    "tier": "lidar",
+    "status": "ok",
+    "source": "/tmp/data/c00a170fe1",
+    "n_poses": 1715,
+    "n_depth_frames": 1715,
+    "n_keyframes": 380,
+    "duration_s": 37.17236916699039,
+    "device_class": "LiDAR Pro-class iPhone (Record3D-style export)"
+  },
+  "diagnostics": {
+    "pose_convention": "cv_c2w",
+    "pose_convention_scores": {
+      "cv_c2w": 0.11403056261385812,
+      "gl_c2w": 0.036468497043373675,
+      "cv_w2c": 0.014794922738608293,
+      "gl_w2c": 0.009447644426626734
+    },
+    "floor_y_world": -1.4724415568892808,
+    "drift": {
+      "requested_mode": "full",
+      "mode": "full",
+      "lc": 0,
+      "cost0": 549.31598104556,
+      "cost1": 197.93664163096759,
+      "phi_deg": 22.800508229892777,
+      "yaw_corr_deg_max": 0.592929306488776,
+      "pos_corr_m_max": 0.030959089945268487,
+      "manhattan_obs": 359,
+      "rejected": false,
+      "sharp_off": 0.2487244287659256,
+      "sharp_on": 0.25668906137890546
+    },
+    "wall_sharpness": 0.2569576196893768,
+    "timing_s": {
+      "load": 4.47,
+      "keyframes": 8.48,
+      "posegraph": 3.82,
+      "layout": 2.44,
+      "assemble": 0.18
+    },
+    "total_s": 19.41,
+    "config": {
+      "seed": 0,
+      "max_keyframes": 450,
+      "kf_min_trans_m": 0.04,
+      "kf_min_rot_deg": 4.0,
+      "depth_min_m": 0.25,
+      "depth_max_m": 4.5,
+      "min_confidence": 2,
+      "edge_rel_thresh": 0.04,
+      "per_frame_voxel_m": 0.02,
+      "global_voxel_m": 0.02,
+      "drift_mode": "full",
+      "lc_min_dt_s": 12.0,
+      "lc_max_dist_m": 2.0,
+      "lc_icp_max_rms_m": 0.03,
+      "lc_icp_min_overlap": 0.45,
+      "floor_band_m": 0.04,
+      "wall_band_lo_m": 0.35,
+      "wall_band_hi_m": 1.85,
+      "raster_res_m": 0.02,
+      "min_room_area_m2": 1.0,
+      "door_min_w": 0.55,
+      "door_max_w": 1.6,
+      "window_min_w": 0.35,
+      "ci_level": 0.9,
+      "damage_detect": false,
+      "log_level": "INFO"
+    },
+    "intervals_calibrated": false,
+    "notes": [
+      "Intervals are engineering priors until `roomscan calibrate` is run on laser-measured ground truth."
+    ],
+    "damage_detector": "none",
+    "wall_clock_s": 19.81
+  }
+}

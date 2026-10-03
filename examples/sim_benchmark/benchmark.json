@@ -1,0 +1,209 @@
+{
+  "sim1": {
+    "summary": {
+      "wall_length": {
+        "n": 16,
+        "mae": 0.29648478993182104,
+        "median_abs": 0.13445249747827925,
+        "max_abs": 1.3577670484316569,
+        "bias": -0.17972018283733507,
+        "spread_sd": 0.46911291737320476,
+        "pass_rate": 0.375,
+        "coverage": 0.5
+      },
+      "ceiling_height": {
+        "n": 4,
+        "mae": 0.003940274394180543,
+        "median_abs": 0.0030720358849123386,
+        "max_abs": 0.006994828802645792,
+        "bias": -0.003940274394180543,
+        "spread_sd": 0.0017829779029680376,
+        "pass_rate": 1.0,
+        "coverage": 1.0
+      },
+      "floor_area": {
+        "n": 4,
+        "mae": 0.43512837598923293,
+        "median_abs": 0.42793999351003476,
+        "max_abs": 0.7911388568463096,
+        "bias": 0.03955894756607814,
+        "spread_sd": 0.5336784584453207,
+        "pass_rate": 0.5,
+        "coverage": 0.5
+      },
+      "opening_width": {
+        "n": 5,
+        "mae": 0.007133747616975805,
+        "median_abs": 0.006875819922951276,
+        "max_abs": 0.008623131111037852,
+        "bias": 0.0036844951725606644,
+        "spread_sd": 0.00615493866843691,
+        "pass_rate": 1.0,
+        "coverage": 1.0
+      },
+      "footprint": {
+        "n": 1,
+        "mae": 1.7956000000000039,
+        "median_abs": 1.7956000000000039,
+        "max_abs": 1.7956000000000039,
+        "bias": 1.7956000000000039,
+        "spread_sd": 0.0,
+        "pass_rate": 1.0,
+        "coverage": 0.0
+      },
+      "opening_gate": {
+        "n_gt": 6,
+        "hits": 5,
+        "phantom": 0,
+        "missed": 1,
+        "fraction": 0.8333333333333334,
+        "passed": false
+      },
+      "ceiling_gate": {
+        "n": 4,
+        "abstained": 0,
+        "passed_rooms": 4,
+        "verdict": "repeatable-but-biased"
+      }
+    },
+    "timing_s": 16.19
+  },
+  "sim2": {
+    "summary": {
+      "wall_length": {
+        "n": 16,
+        "mae": 0.3034243099113,
+        "median_abs": 0.014304404140994986,
+        "max_abs": 1.5372485297453018,
+        "bias": -0.19173301228124395,
+        "spread_sd": 0.5641253178668508,
+        "pass_rate": 0.5625,
+        "coverage": 0.6875
+      },
+      "ceiling_height": {
+        "n": 4,
+        "mae": 0.005104896959819416,
+        "median_abs": 0.004732745635181557,
+        "max_abs": 0.008466523646969648,
+        "bias": -0.005104896959819416,
+        "spread_sd": 0.002208466992764542,
+        "pass_rate": 1.0,
+        "coverage": 1.0
+      },
+      "floor_area": {
+        "n": 4,
+        "mae": 0.5077665142211677,
+        "median_abs": 0.44232587603562745,
+        "max_abs": 1.0892528298868176,
+        "bias": 0.11826999928166748,
+        "spread_sd": 0.648332322390822,
+        "pass_rate": 0.5,
+        "coverage": 0.5
+      },
+      "opening_width": {
+        "n": 5,
+        "mae": 0.008418806989242512,
+        "median_abs": 0.004303113760307564,
+        "max_abs": 0.016483393170127147,
+        "bias": 0.008207235749725261,
+        "spread_sd": 0.006983641765013915,
+        "pass_rate": 1.0,
+        "coverage": 1.0
+      },
+      "footprint": {
+        "n": 1,
+        "mae": 2.1812000000000005,
+        "median_abs": 2.1812000000000005,
+        "max_abs": 2.1812000000000005,
+        "bias": 2.1812000000000005,
+        "spread_sd": 0.0,
+        "pass_rate": 1.0,
+        "coverage": 0.0
+      },
+      "opening_gate": {
+        "n_gt": 6,
+        "hits": 5,
+        "phantom": 0,
+        "missed": 1,
+        "fraction": 0.8333333333333334,
+        "passed": false
+      },
+      "ceiling_gate": {
+        "n": 4,
+        "abstained": 0,
+        "passed_rooms": 4,
+        "verdict": "repeatable-but-biased"
+      }
+    },
+    "timing_s": 15.96
+  },
+  "sim3": {
+    "summary": {
+      "wall_length": {
+        "n": 16,
+        "mae": 0.3112774904482927,
+        "median_abs": 0.043108545569275236,
+        "max_abs": 1.6144958700940473,
+        "bias": -0.18947648561098385,
+        "spread_sd": 0.5222754176357719,
+        "pass_rate": 0.5,
+        "coverage": 0.625
+      },
+      "ceiling_height": {
+        "n": 4,
+        "mae": 0.005457104457380568,
+        "median_abs": 0.005700243369132885,
+        "max_abs": 0.0075451748956552045,
+        "bias": -0.005457104457380568,
+        "spread_sd": 0.0018921288569463664,
+        "pass_rate": 1.0,
+        "coverage": 1.0
+      },
+      "floor_area": {
+        "n": 4,
+        "mae": 0.543150241702307,
+        "median_abs": 0.495523324533111,
+        "max_abs": 1.0897804513079596,
+        "bias": 0.1712307173589559,
+        "spread_sd": 0.6506097463881297,
+        "pass_rate": 0.25,
+        "coverage": 0.5
+      },
+      "opening_width": {
+        "n": 5,
+        "mae": 0.014810667038180413,
+        "median_abs": 0.008552454365081896,
+        "max_abs": 0.025753652398712745,
+        "bias": 0.014810667038180413,
+        "spread_sd": 0.008902280324897939,
+        "pass_rate": 0.6,
+        "coverage": 1.0
+      },
+      "footprint": {
+        "n": 1,
+        "mae": 2.2452000000000005,
+        "median_abs": 2.2452000000000005,
+        "max_abs": 2.2452000000000005,
+        "bias": 2.2452000000000005,
+        "spread_sd": 0.0,
+        "pass_rate": 1.0,
+        "coverage": 0.0
+      },
+      "opening_gate": {
+        "n_gt": 6,
+        "hits": 3,
+        "phantom": 0,
+        "missed": 1,
+        "fraction": 0.5,
+        "passed": false
+      },
+      "ceiling_gate": {
+        "n": 4,
+        "abstained": 0,
+        "passed_rooms": 4,
+        "verdict": "repeatable-but-biased"
+      }
+    },
+    "timing_s": 15.54
+  }
+}

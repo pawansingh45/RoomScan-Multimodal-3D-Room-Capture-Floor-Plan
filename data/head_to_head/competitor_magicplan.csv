@@ -1,0 +1,15 @@
+room,kind,value
+A,wall_length,3.46
+A,wall_length,3.37
+A,wall_length,4.25
+A,wall_length,4.14
+A,ceiling_height,2.58
+A,opening_width,0.87
+A,opening_width,0.73
+A,opening_width,0.79
+B,wall_length,2.55
+B,wall_length,2.44
+B,wall_length,3.06
+B,wall_length,2.93
+B,ceiling_height,2.48
+B,opening_width,0.86

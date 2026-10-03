@@ -1,0 +1,135 @@
+{
+  "rooms": {
+    "A": {
+      "walls": [
+        3.4,
+        3.4,
+        4.2,
+        4.2
+      ],
+      "dims": [
+        4.2,
+        3.4
+      ],
+      "ceiling_height": 2.55,
+      "floor_area": 14.28,
+      "openings": [
+        {
+          "id": "A-B",
+          "kind": "door",
+          "width": 0.9,
+          "height": 2.05
+        },
+        {
+          "id": "A-H",
+          "kind": "door",
+          "width": 0.6999999999999997,
+          "height": 2.05
+        },
+        {
+          "id": "A-C",
+          "kind": "door",
+          "width": 0.8200000000000001,
+          "height": 2.05
+        }
+      ]
+    },
+    "B": {
+      "walls": [
+        2.4999999999999996,
+        2.4999999999999996,
+        3.0,
+        3.0
+      ],
+      "dims": [
+        3.0,
+        2.4999999999999996
+      ],
+      "ceiling_height": 2.45,
+      "floor_area": 7.499999999999998,
+      "openings": [
+        {
+          "id": "A-B",
+          "kind": "door",
+          "width": 0.9,
+          "height": 2.05
+        }
+      ]
+    },
+    "C": {
+      "walls": [
+        2.5,
+        2.5,
+        2.6,
+        2.6
+      ],
+      "dims": [
+        2.5,
+        2.6
+      ],
+      "ceiling_height": 2.4,
+      "floor_area": 6.5,
+      "openings": [
+        {
+          "id": "A-C",
+          "kind": "door",
+          "width": 0.8200000000000001,
+          "height": 2.05
+        }
+      ]
+    },
+    "H": {
+      "walls": [
+        1.0,
+        1.0,
+        2.4999999999999996,
+        2.4999999999999996
+      ],
+      "dims": [
+        1.0,
+        2.4999999999999996
+      ],
+      "ceiling_height": 2.55,
+      "floor_area": 2.4999999999999996,
+      "openings": [
+        {
+          "id": "A-H",
+          "kind": "door",
+          "width": 0.6999999999999997,
+          "height": 2.05
+        }
+      ]
+    }
+  },
+  "doors": [
+    {
+      "id": "A-B",
+      "width": 0.9,
+      "height": 2.05
+    },
+    {
+      "id": "A-H",
+      "width": 0.6999999999999997,
+      "height": 2.05
+    },
+    {
+      "id": "A-C",
+      "width": 0.8200000000000001,
+      "height": 2.05
+    }
+  ],
+  "footprint_area": 30.779999999999998,
+  "sim": {
+    "seed": 21,
+    "rotation_deg": 0.0,
+    "yaw_drift_deg_per_s": 0.05,
+    "pos_drift_per_m": 0.01,
+    "depth_noise": [
+      0.003,
+      0.004
+    ],
+    "n_frames": 450,
+    "floor_y": -1.45,
+    "synthetic": true
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "table": [
+    {
+      "room": "A",
+      "kind": "wall_length",
+      "gt": 3.4,
+      "ours_err": 0.014240598012991157,
+      "theirs_err": 0.029999999999999805,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "wall_length",
+      "gt": 3.4,
+      "ours_err": 0.014240598012991157,
+      "theirs_err": 0.06000000000000005,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "wall_length",
+      "gt": 4.2,
+      "ours_err": 0.009865782201593731,
+      "theirs_err": 0.04999999999999982,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "wall_length",
+      "gt": 4.2,
+      "ours_err": 0.009865782201593731,
+      "theirs_err": 0.0600000000000005,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "ceiling_height",
+      "gt": 2.55,
+      "ours_err": 0.0026221969982520577,
+      "theirs_err": 0.03000000000000025,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "opening_width",
+      "gt": 0.9,
+      "ours_err": 0.008623130781992394,
+      "theirs_err": 0.030000000000000027,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "opening_width",
+      "gt": 0.6999999999999997,
+      "ours_err": 0.006875825200311159,
+      "theirs_err": 0.03000000000000025,
+      "result": "win"
+    },
+    {
+      "room": "A",
+      "kind": "opening_width",
+      "gt": 0.8200000000000001,
+      "ours_err": 0.006631496788757629,
+      "theirs_err": 0.030000000000000027,
+      "result": "win"
+    },
+    {
+      "room": "B",
+      "kind": "wall_length",
+      "gt": 2.4999999999999996,
+      "ours_err": 0.006737116903187346,
+      "theirs_err": 0.050000000000000266,
+      "result": "win"
+    },
+    {
+      "room": "B",
+      "kind": "wall_length",
+      "gt": 2.4999999999999996,
+      "ours_err": 1.0071663349599596,
+      "theirs_err": 0.05999999999999961,
+      "result": "loss"
+    },
+    {
+      "room": "B",
+      "kind": "wall_length",
+      "gt": 3.0,
+      "ours_err": 0.005892619462724014,
+      "theirs_err": 0.06000000000000005,
+      "result": "win"
+    },
+    {
+      "room": "B",
+      "kind": "wall_length",
+      "gt": 3.0,
+      "ours_err": 0.48636349364080456,
+      "theirs_err": 0.06999999999999984,
+      "result": "loss"
+    },
+    {
+      "room": "B",
+      "kind": "ceiling_height",
+      "gt": 2.45,
+      "ours_err": 0.006994703236480326,
+      "theirs_err": 0.029999999999999805,
+      "result": "win"
+    }
+  ],
+  "beat_or_tie_fraction": 0.8461538461538461,
+  "target": 0.7,
+  "tie_definition": "|err_ours-err_theirs|<0.005 m"
+}

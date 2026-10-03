@@ -1,0 +1,44 @@
+{
+  "single_room": {
+    "n_rooms": 3,
+    "unplaced": [],
+    "evidence": "contact_only",
+    "door_pairs": [],
+    "footprint": 24.69201312047533,
+    "placement_rms_m": 2.146909489152685
+  },
+  "single_scan_floor_only": {
+    "n_rooms": 7,
+    "unplaced": [],
+    "evidence": "contact_only",
+    "door_pairs": [
+      [
+        "R1",
+        "R2"
+      ]
+    ],
+    "footprint": 58.546927626053446,
+    "placement_rms_m": 5.362225708948861
+  },
+  "single_scan_with_ceiling": {
+    "n_rooms": 8,
+    "unplaced": [],
+    "evidence": "contact_only",
+    "door_pairs": [
+      [
+        "R4",
+        "R6"
+      ],
+      [
+        "R5",
+        "R6"
+      ],
+      [
+        "R7",
+        "R8"
+      ]
+    ],
+    "footprint": 65.39963646812463,
+    "placement_rms_m": 4.513320059233438
+  }
+}

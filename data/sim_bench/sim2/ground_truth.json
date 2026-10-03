@@ -1,0 +1,97 @@
+{
+  "scene": "sim2",
+  "synthetic": true,
+  "rooms": [
+    {
+      "label": "A",
+      "walls": [
+        3.4,
+        3.4,
+        4.2,
+        4.2
+      ],
+      "ceiling_height": 2.55,
+      "floor_area": 14.28,
+      "openings": [
+        {
+          "kind": "door",
+          "width": 0.9
+        },
+        {
+          "kind": "door",
+          "width": 0.6999999999999997
+        },
+        {
+          "kind": "door",
+          "width": 0.8200000000000001
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "walls": [
+        2.4999999999999996,
+        2.4999999999999996,
+        3.0,
+        3.0
+      ],
+      "ceiling_height": 2.45,
+      "floor_area": 7.499999999999998,
+      "openings": [
+        {
+          "kind": "door",
+          "width": 0.9
+        }
+      ]
+    },
+    {
+      "label": "C",
+      "walls": [
+        2.5,
+        2.5,
+        2.6,
+        2.6
+      ],
+      "ceiling_height": 2.4,
+      "floor_area": 6.5,
+      "openings": [
+        {
+          "kind": "door",
+          "width": 0.8200000000000001
+        }
+      ]
+    },
+    {
+      "label": "H",
+      "walls": [
+        1.0,
+        1.0,
+        2.4999999999999996,
+        2.4999999999999996
+      ],
+      "ceiling_height": 2.55,
+      "floor_area": 2.4999999999999996,
+      "openings": [
+        {
+          "kind": "door",
+          "width": 0.6999999999999997
+        }
+      ]
+    }
+  ],
+  "footprint_area": 30.779999999999998,
+  "adjacency": [
+    [
+      "A",
+      "B"
+    ],
+    [
+      "A",
+      "H"
+    ],
+    [
+      "A",
+      "C"
+    ]
+  ]
+}
